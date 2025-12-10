@@ -1,0 +1,60 @@
+body {
+    background-image: url('../photos/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.text {
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 50px;
+    text-align: center;
+    border: 10px double rgb(127, 179, 127); 
+    color: rgb(55, 99, 38);
+    margin-bottom: 1rem;
+}
+body > .text > ul,
+body > .text > ol {
+    display: inline-block;
+    text-align: left;
+}
+
+ul ul, ol ul, ul ol, ol ol {
+    display: block;
+    text-align: left;
+}
+body {
+    background-image: url('../photos/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.tableauPlaceholder {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.footer {
+    background-color: rgb(127, 179, 127);
+    color: white;
+    padding: .25rem; 
+    position: fixed; bottom: 10px; left: 10px; right:10px;
+}
+.footer a, .footer a:visited{
+    color: white
+}
+.utensils img{
+    transform: rotate(15deg);
+    
+}
